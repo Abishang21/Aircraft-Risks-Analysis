@@ -1,7 +1,8 @@
-**#Aviation Accident Risk Analysis**
+**Aviation Accident Risk Analysis**
 
 
-**##Project Background**
+
+**Project Background**
 
 Our company is expanding into the aviation industry and plans to purchase aircraft for commercial and private use. To support informed decision-making by the leadership team, this project aims at analyzing aircraft accident data to identify safety risks, vulnerable aircraft makes and models and accident-prone flight phases.
 
@@ -35,7 +36,9 @@ Targeted Python scripts used to answer specific business questions can be found 
 The interactive Tableau dashboard used to report and explore accident trends can be found here: [Tableau Dashboard]
 
 
-**#Data Structure & Initial Checks**
+
+
+**Data Structure & Initial Checks**
 
 The dataset analyzed comes from the NTSB Aviation Accident Database  which contains records of civil aviation accidents and selected incidents within the United States and international waters from 1962 to 2023.The database consists of two tables as follows:
 
@@ -66,9 +69,11 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 6. Standardized text values by converting the Make column to lowercase for consistency.
 
 
-**#Executive Summary**
 
-**##Overview of Findings**
+
+**Executive Summary**
+
+**Overview of Findings**
 
 1.Certain aircraft makes and models have significantly lower accident rates making them safer options for purchase.
 
@@ -80,7 +85,9 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 [Snapshot of dashboard]
 
 
-**#Insights Deep Dive**
+
+
+**Insights Deep Dive**
 
 **Aircraft Accident Trends**
 
@@ -97,7 +104,8 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 [Visualization: Aircraft accident rates by Years]
 
-**#Phase of Flight Risk Analysis**
+
+**Phase of Flight Risk Analysis**
 
 - Landing (21,470 accidents) and Takeoff (5259 accidents) pose the highest risks.
 
@@ -107,6 +115,7 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 
 [Visualization: Accidents per phase of flight]
+
 
 
 **Weather Condition Impact**
@@ -119,7 +128,8 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 [Visualization: Weather impact on aircraft accidents]
 
 
-**Passenger Safety & Damage Analysis**
+
+**Passenger & Damage Analysis**
 
 - Cesna and Piper aircraft recorded the highest number of uninjured passengers
 
@@ -129,6 +139,9 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 [Visualization: Passenger safety metrics]
 
 [Visualization: Aircraft accident rates by damagel]
+
+
+
 
 
 **Recommendations**
