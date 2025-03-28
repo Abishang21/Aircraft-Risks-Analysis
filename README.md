@@ -33,7 +33,7 @@ The Python scripts used to inspect and clean the data for this analysis can be f
 
 Targeted Python scripts used to answer specific business questions can be found here:[Python Analysis Scripts](https://github.com/Abishang21/Projects/blob/master/Aviation_data%20Notebook.ipynb)
 
-The interactive Tableau dashboard used to report and explore accident trends can be found here: [Tableau Dashboard](https://github.com/Abishang21/Projects/commit/ca8babeebdf3e09778374750a5882b2b0ed05b33#diff-a69909ee5a0494881b51f8eb86ec9b623c0ea89f4087b15ad66b17d65e35faa6)
+The interactive Tableau dashboard used to report and explore accident trends can be found here: [Tableau Dashboard](https://github.com/Abishang21/Projects/blob/master/Images/Dashboard.jpg))
 
 
 
@@ -42,11 +42,13 @@ The interactive Tableau dashboard used to report and explore accident trends can
 
 The dataset analyzed comes from the NTSB Aviation Accident Database  which contains records of civil aviation accidents and selected incidents within the United States and international waters from 1962 to 2023.The database consists of two tables as follows:
 
-- Aviation Data Table contains 88,889 records with 31 key columns providing detailed information on aircraft accidents.
+- Aviation Data Table contains 88,889 records with 31 key columns providing detailed information on aircraft accidents.Below are some of the columns;
 
+![Aviation Data Table](https://github.com/Abishang21/Projects/blob/master/Images/Screenshot%202025-03-27%20153128.jpg)
 
 - US States Abbreviations Table contains 63 records mapping state names to their abbreviations.
 
+![US States Abbreviations Table](https://github.com/Abishang21/Projects/blob/master/Images/Screenshot%202025-03-27%20153158.jpg)
 
 The dataset underwent several cleaning and transformation steps using Python (Pandas, Matplotlib, and Seaborn) before being exported to Tableau for visualization.
 
@@ -82,7 +84,7 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 3. Aviation accidents have become less common over the years.
 
 
-![Snapshot of dashboard](https://github.com/Abishang21/Projects/commit/ca8babeebdf3e09778374750a5882b2b0ed05b33#diff-a69909ee5a0494881b51f8eb86ec9b623c0ea89f4087b15ad66b17d65e35faa6)
+![Snapshot of dashboard](https://github.com/Abishang21/Projects/blob/master/Images/Dashboard.jpg)
 
 
 
@@ -99,9 +101,9 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 
 
+![Visualization: Aircraft accident rates by make](https://github.com/Abishang21/Projects/blob/master/Images/1.jpg)
+![Visualization: Aircraft accident rates by model](https://github.com/Abishang21/Projects/blob/master/Images/2.jpg)
 
-![Visualization: Aircraft accident rates by make](https://github.com/Abishang21/Projects/commit/ca8babeebdf3e09778374750a5882b2b0ed05b33#diff-129e085644279f2f7bb1ef8edf17ab60a8291a86f1bfd1953d162b30e008641f)
-![Visualization: Aircraft accident rates by model](https://github.com/Abishang21/Projects/commit/ca8babeebdf3e09778374750a5882b2b0ed05b33#diff-20dc9543a5d3d0eac5433200946342929c9e084f6fb00e24609c30a79d600ee6)
 
 **Aircraft Accident Trends**
 
@@ -112,8 +114,8 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 - 67 flying dutchman,a.h gettings,abc, Abernathy,777 and few others have remained to be the safest aircrafts over the years.
 
 
-![Visualization: Accident prone Aircraft rates by Years](https://github.com/Abishang21/Projects/commit/ca8babeebdf3e09778374750a5882b2b0ed05b33#diff-063c4710878b775a229ffc40912a4b8cd13c7ac9859567d7a857c9e46ba5071a)
-![Visualization: safest Aircraft  by Years](https://github.com/Abishang21/Projects/commit/ca8babeebdf3e09778374750a5882b2b0ed05b33#diff-676bd2c6c128633c7c2431bbf370bd70b6674fd13c9b634436caa498d1bac4e1)
+![Visualization: Accident prone Aircraft rates by Years](https://github.com/Abishang21/Projects/blob/master/Images/3.jpg)
+![Visualization: safest Aircraft  by Years](https://github.com/Abishang21/Projects/blob/master/Images/4.jpg)
 
 
 **Phase of Flight Risk Analysis**
@@ -123,8 +125,7 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 - The least number of accidents occur in the "Unknown" and "Other" flight phases.
 
 
-![Visualization: Accidents per phase of flight](https://github.com/Abishang21/Projects/commit/ca8babeebdf3e09778374750a5882b2b0ed05b33#diff-b5766027b604f63bdb4798c0afaed7c31f2478e6787f2c6bc9c758f24ad239ac)
-
+![Visualization: Accidents per phase of flight](https://github.com/Abishang21/Projects/blob/master/Images/9.jpg)
 
 
 **Weather Condition Impact**
@@ -133,8 +134,7 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 - Most accidents happen in clear weather (VMC - Visual Meteorological Conditions) rather than bad weather (IMC - Instrument Meteorological Conditions).
 
-
-![Visualization: Weather impact on aircraft accidents](https://github.com/Abishang21/Projects/commit/ca8babeebdf3e09778374750a5882b2b0ed05b33#diff-6c4b4343d02ee01034d34bd809f6d2569b5d48fc2bcf5931851730aabbaecc0c)
+![Visualization: Weather impact on aircraft accidents](https://github.com/Abishang21/Projects/blob/master/Images/5.jpg)
 
 
 
@@ -149,10 +149,9 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 - Boeing has a moderate number of accidents with a good number of uninjured passengers.
 
 
-![Visualization: Passengers metrics](https://github.com/Abishang21/Projects/commit/ca8babeebdf3e09778374750a5882b2b0ed05b33#diff-05d3f5ce7f60aacda0f49bc80be9ac5b2fff910611da25e480ed405300224f3a)
+![Visualization: Passengers metrics](https://github.com/Abishang21/Projects/blob/master/Images/7.jpg)
 
-![Visualization: Aircraft accident rates by damagel](https://github.com/Abishang21/Projects/commit/ca8babeebdf3e09778374750a5882b2b0ed05b33#diff-6d649eada555cfc55af8b2e9ccb3c2098d3512b359adc80b626b24e1886e3cb2)
-
+![Visualization: Aircraft accident rates by damagel](https://github.com/Abishang21/Projects/blob/master/Images/6.jpg)
 
 
 
