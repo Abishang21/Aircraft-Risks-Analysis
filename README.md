@@ -1,4 +1,4 @@
-**Aviation Accident Risk Analysis**
+**Aircraft Risk and Safety Analysis**
 
 
 
@@ -56,7 +56,7 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
     - For numerical columns: If mean > median, filled with median; if median > mean, filled with median; if equal, filled with mean.
 
-    - For categorical columns: Replaced null values with the most frequent value.
+    - For categorical columns: Replaced null values with the most frequent first value.
 
 3. Checked for duplicates and found none.
 
@@ -64,7 +64,7 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 5. Identified and removed outliers using the IQR method and boxplots.
 
-6. Dropped non-informative columns (e.g., those with only one unique value) to streamline analysis.
+6. Dropped columns that were not needed for my analysis.
 
 6. Standardized text values by converting the Make column to lowercase for consistency.
 
@@ -75,11 +75,11 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 **Overview of Findings**
 
-1.Certain aircraft makes and models have significantly lower accident rates making them safer options for purchase.
+1. Some aircraft models are much safer than others, with fewer accidents.
 
-2. Human error and weather conditions are major contributing factors to aviation accidents.
+2. Most accidents happen due to human mistakes and bad weather.
 
-3. The number of aviation accidents has decreased over time .
+3. Aviation accidents have become less common over the years.
 
 
 [Snapshot of dashboard]
@@ -91,13 +91,13 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 **Aircraft Accident Trends**
 
-- Cessna, Piper, and Beech aircraft account for the highest number of accidents 
+- Cessna, Piper, and Beech aircraft have the highest number of accidents 
 
-- Abernathy ,777 and Robert John makes report significantly lower accident rates.
+- Abernathy, 777, and Robert John planes have much fewer accidents.
 
 - The most accident-prone aircraft models include Cessna 152 ,172 and 172N.
 
-- There has been reduced number of accidents over the years
+- The number of accidents has gone down over the years.
 
 
 [Visualization: Aircraft accident rates by make/model]
@@ -107,11 +107,11 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 **Phase of Flight Risk Analysis**
 
-- Landing (21,470 accidents) and Takeoff (5259 accidents) pose the highest risks.
+- Most accidents happen during landing (21,470 accidents) and takeoff (5,259 accidents).
 
-- Unknown and Others have the lowest accident occurrences.
+- The least number of accidents occur in the "Unknown" and "Other" flight phases.
 
-- Insights suggest a need for more training during Landing and takeoff 
+
 
 
 [Visualization: Accidents per phase of flight]
@@ -122,7 +122,7 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 - Aircrafts like Cesna,Piper, Bell and  Beech experience higher accident rates under poor weather conditions.
 
-- VMC((Visual Meteorological Conditions) conditions contribute to more severe accidents compared to IMC(Instrument Meteorological Conditions).
+- Most accidents happen in clear weather (VMC - Visual Meteorological Conditions) rather than bad weather (IMC - Instrument Meteorological Conditions).
 
 
 [Visualization: Weather impact on aircraft accidents]
@@ -131,9 +131,13 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 **Passenger & Damage Analysis**
 
-- Cesna and Piper aircraft recorded the highest number of uninjured passengers
+- Cesna and Piper aircraft recorded the highest number of uninjured passengers after accidents.
 
-- Piper and Bell sustain severe damage has they have the highest accident damage counts.
+- Piper and Bell aircraft sustain the most damage in crashes.
+
+- Cessna has the highest number of accidents but also a strong safety record.
+
+- Boeing has a moderate number of accidents with a good number of uninjured passengers.
 
 
 [Visualization: Passenger safety metrics]
@@ -149,16 +153,17 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 Based on the insights above the leadership team should consider the following actions:
 
-1.  Improve pilot training by using simulations to help them handle different weather conditions and reduce human errors. This will increase their awareness and preparedness for any situation.
+1.  Train pilots better by using flight simulators to help them practice flying in different weather conditions and avoid mistakes.
 
-2.  Encourage adoption of safer aircraft models, such as Abernathy and Robert John, in high-risk operations.
+2.  Choose safer planes by using aircraft models with fewer accidents, like Abernathy and Robert John for high risk operations.
 
-3. Consider investing in aircraft models with lower accident rates and higher safety records, as identified in the bottom 10 list.
+3. Consider investing in aircraft models with lower accident rates and higher safety records  as identified in the bottom 10 list.
 
-4. Prioritize aircraft makes with a high percentage of uninjured passengers in accidents, indicating better safety features.
+4. Pick planes with good safety features by using aircraft that protect passengers better in case of an accident.
 
-5. Focus on improving safety measures particularly during the landing phase such as advanced landing assistance systems and pilot training programs.
+5. Improve landing  safety by adding better landing technology and giving pilots extra training to prevent landing accidents.
 
+6. Improve takeoff safety by upgrading aircraft systems and providing pilots with additional training to handle takeoff challenges.
 
 
 
