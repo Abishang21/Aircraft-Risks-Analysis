@@ -29,9 +29,9 @@ Our company is expanding into the aviation industry and plans to purchase aircra
 - Trends over time in aviation safety
 
 
-The Python scripts used to inspect and clean the data for this analysis can be found here: [Python Cleaning Scripts](https://github.com/Abishang21/Aircraft-Risks-Analysis/blob/master/Aviation_data%20Notebook%20-%20Final%20Copy.ipynb)
+The Python scripts used to inspect and clean the data for this analysis can be found here: [Python Cleaning Scripts](https://github.com/Abishang21/Aircraft-Risks-Analysis/blob/master/Notebooks/Aviation_data%20Notebook%20-%20Final%20Copy.ipynb)
 
-Targeted Python scripts used to answer specific business questions can be found here:[Python Analysis Scripts](https://github.com/Abishang21/Aircraft-Risks-Analysis/blob/master/Aviation_data%20Notebook%20-%20Final%20Copy.ipynb)
+Targeted Python scripts used to answer specific business questions can be found here:[Python Analysis Scripts](https://github.com/Abishang21/Aircraft-Risks-Analysis/blob/master/Notebooks/Aviation_data%20Notebook%20-%20Final%20Copy.ipynb)
 
 The interactive Tableau dashboard used to report and explore accident trends can be found here: [Tableau Dashboard](https://github.com/Abishang21/Aircraft-Risks-Analysis/blob/master/Images/Dashboard.jpg)
 
