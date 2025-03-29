@@ -40,7 +40,11 @@ The interactive Tableau dashboard used to report and explore accident trends can
 
 **Data Structure & Initial Checks**
 
-The dataset analyzed comes from the NTSB Aviation Accident Database  which contains records of civil aviation accidents and selected incidents within the United States and international waters from 1962 to 2023.The database consists of two tables as follows:
+The dataset analyzed is sourced from the NTSB Aviation Accident Database  which documents civil aviation accidents and selected incidents in the United States and international waters from 1962 to 2023. The data consists of two tables and was downloaded from Kaggle.
+
+[Kaggle Link](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
+
+The two tables  are as follows:
 
 - Aviation Data Table contains 88,889 records with 31 key columns providing detailed information on aircraft accidents.Below are some of the columns;
 
@@ -50,7 +54,7 @@ The dataset analyzed comes from the NTSB Aviation Accident Database  which conta
 
 ![US States Abbreviations Table](https://github.com/Abishang21/Projects/blob/master/Images/Screenshot%202025-03-27%20153158.jpg)
 
-The dataset underwent several cleaning and transformation steps using Python (Pandas, Matplotlib, and Seaborn) before being exported to Tableau for visualization.
+The dataset underwent several cleaning and transformation steps using Python (Pandas) before being exported to Tableau for visualization.
 
 1. Copied the dataset to preserve the original file.
 
@@ -93,11 +97,11 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 **Aircraft Accident risk assessmentTrends**
 
-- Cessna, Piper, and Beech aircraft have the highest number of accidents 
+- Cessna, Piper, and Beech aircraft makes have the highest number of accidents 
 
 - Abernathy, 777, and Robert John planes have much fewer accidents.
 
-- The most accident-prone aircraft models include Cessna 152 ,172 and 172N.
+- The most accident-prone aircraft models include  152 ,172 and 172N.
 
 
 
@@ -109,9 +113,9 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 - Cessna and Piper aircraft have the highest number of accidents over the years, with Cessna leading significantly
 
-- The number of accidents has gone down over the years.
+- Accidents peaked between 1980-2000 but have declined due to improved safety regulations even though certain makes still pose risks.
 
-- 67 flying dutchman,a.h gettings,abc, Abernathy,777 and few others have remained to be the safest aircrafts over the years.
+- 67 flying dutchman,a.h gettings,abc, Abernathy,777 and few others have remained to be the safest aircrafts over the years as they have low number of acidents
 
 
 ![Visualization: Accident prone Aircraft rates by Years](https://github.com/Abishang21/Projects/blob/master/Images/3.jpg)
@@ -132,7 +136,7 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 - Aircrafts like Cesna,Piper, Bell and  Beech experience higher accident rates under poor weather conditions.
 
-- Most accidents happen in clear weather (VMC - Visual Meteorological Conditions) rather than bad weather (IMC - Instrument Meteorological Conditions).
+- Surprisingly most accidents happen in clear weather (VMC - Visual Meteorological Conditions) rather than bad weather (IMC - Instrument Meteorological Conditions).
 
 ![Visualization: Weather impact on aircraft accidents](https://github.com/Abishang21/Projects/blob/master/Images/5.jpg)
 
@@ -140,13 +144,13 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 
 **Passenger & Damage Analysis**
 
-- Cesna and Piper aircraft recorded the highest number of uninjured passengers after accidents.
+-Cessna, Piper, and Beech have the most uninjured passengers but also the highest accidents, indicating their widespread use and increased exposure to incidents.
 
-- Piper and Bell aircraft sustain the most damage in crashes.
+- Despite many accidents Piper, Cessna, and Beech aircraft have many uninjured passengers, showing that their design and safety features help protect people in crashes.
 
-- Cessna has the highest number of accidents but also a strong safety record.
+- The bottom 10 aircraft makes have only 1 recorded accident each showing significantly lower exposure or usage.
 
-- Boeing has a moderate number of accidents with a good number of uninjured passengers.
+- Most accidents fall under substantial damage meaning aircraft were significantly damaged but not destroyed entirely.
 
 
 ![Visualization: Passengers metrics](https://github.com/Abishang21/Projects/blob/master/Images/7.jpg)
@@ -159,19 +163,34 @@ The dataset underwent several cleaning and transformation steps using Python (Pa
 **Recommendations**
 
 
-Based on the insights above the leadership team should consider the following actions:
+Based on the uncovered insights above the leadership team should consider the following actions:
 
-1.  Train pilots better by using flight simulators to help them practice flying in different weather conditions and avoid mistakes.
+1.  Despite some aircraft makes being widely used, choosing safer models like Abernathy, 777, and Robert John can minimize accidents in high-risk operations, reduce maintenance costs and enhance an airline's reputation.
 
-2.  Choose safer planes by using aircraft models with fewer accidents, like Abernathy and Robert John for high risk operations.
+2. Look to invest in aircraft models with lower accident rates as identified in the bottom 10 list to cut operational costs and lower repair expenses.
 
-3. Consider investing in aircraft models with lower accident rates and higher safety records  as identified in the bottom 10 list.
+3. With many accidents happening in good weather, pilot training should emphasize human factors such as decision-making, fatigue management, and situational awareness to reduce preventable errors.
 
-4. Pick planes with good safety features by using aircraft that protect passengers better in case of an accident.
+4. Re-evaluate safety checks and operational protocols in clear weather to prevent overconfidence and maintain consistent safety standards.
 
-5. Improve landing  safety by adding better landing technology and giving pilots extra training to prevent landing accidents.
+5. Push for enhanced pilot simulator training to better prepare pilots for handling accidents caused by bad weather hence improving overall flight safety.
 
-6. Improve takeoff safety by upgrading aircraft systems and providing pilots with additional training to handle takeoff challenges.
+6. Continue investing in advanced weather monitoring systems to provide real-time updates to pilots, improving preparedness and reducing weather-related incidents.
+
+7. With landing accidents being a major concern, upgrading landing technology and providing extra pilot training can improve safety and reduce costly damages.
+
+8. Improve takeoff safety by upgrading aircraft systems and providing pilots with additional training to handle takeoff challenges.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
